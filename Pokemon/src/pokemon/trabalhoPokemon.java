@@ -45,7 +45,12 @@ class trabalhoPokemon {
             Time escolhido2 = new Time();
        
 
-            System.out.println("Qual time você quer treinador 1 ? 1 - Time 1 (Charmander, Vaporeon, Venossauro) 2- Time 2(Squirtle, Flareon, Gyrados) 3- Time 3(Bulbassauro,Jolteon,Blastoize) 4 - Time 4 (Charizard, Onyx, Pikachu)"); 
+            System.out.println("Qual time você quer treinador 1"); 
+            System.out.println("1 - Time 1 (Charmander, Vaporeon, Venossauro)");
+            System.out.println("2- Time 2(Squirtle, Flareon, Gyrados)");
+            System.out.println("3- Time 3(Bulbassauro,Jolteon,Blastoize)");
+            System.out.println("4 - Time 4 (Charizard, Onyx, Pikachu)");
+            
             Scanner reader = new Scanner(System.in);  // Reading from System.in
             Time timeA=t3;
             int i = reader.nextInt();
@@ -71,7 +76,11 @@ class trabalhoPokemon {
                 System.out.println("=======================================================================");
             }
             
-            System.out.println("Qual time você quer treinador 2 ? 1 - Time 1 (Charmander, Vaporeon, Venossauro) 2- Time 2(Squirtle, Flareon, Gyrados) 3- Time 3(Bulbassauro,Jolteon,Blastoize) 4 - Time 4 (Charizard, Onyx, Pikachu)"); 
+            System.out.println("Qual time você quer treinador 2 ?"); 
+            System.out.println("1 - Time 1 (Charmander, Vaporeon, Venossauro)");
+            System.out.println("2- Time 2(Squirtle, Flareon, Gyrados)");
+            System.out.println("3- Time 3(Bulbassauro,Jolteon,Blastoize)");
+            System.out.println("4 - Time 4 (Charizard, Onyx, Pikachu)");
             Scanner readerB = new Scanner(System.in);  // Reading from System.in
             Time timeB=t2;
             int j = reader.nextInt();

@@ -29,7 +29,7 @@ public class Batalha {
      *funcao que roda a batalha
      */
     public void comecarBatalha(){
-        System.out.println("Vamos começar!");
+        System.out.println(" ☆☆☆☆☆ Vamos começar! ☆☆☆☆☆ ");
         while(t1.getVidaTotal()>0&&t2.getVidaTotal()>0)
         {
             pokemonAtual();
