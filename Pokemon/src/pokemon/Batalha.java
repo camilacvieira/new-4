@@ -60,7 +60,7 @@ public class Batalha {
                 p2 = t2.time.pokemons.get(i);
                 break;
             }
-            System.out.println(" ††† Treinador 2 O Pokemon "+p2.nome+"morreu!, próximo ††† ");
+            System.out.println(" ††† Treinador 2 O Pokemon "+p2.nome+" morreu!, próximo ††† ");
         }
         
     }

@@ -97,7 +97,7 @@ class trabalhoPokemon {
             }
             if(j==3){
                 timeB= t3; 
-                System.out.println("Bulbassauro,Jolteon,Blastoize"); 
+                System.out.println("Bulbassauro, Jolteon, Blastoize"); 
                 System.out.println("=======================================================================");
             }
             if(j==4){
