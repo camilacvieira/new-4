@@ -103,9 +103,12 @@ public class Batalha {
         System.out.println("=======================================================================");
         System.out.println("Ataque treinador 1:  ");
         System.out.println("Pokemon - " + p1.nome);
+        System.out.println("Mana - " + t1.mana);
         ataque(1);
         System.out.println("=======================================================================");
+        System.out.println("Ataque treinador 2:  ");
         System.out.println("Pokemon - " + p2.nome);
+        System.out.println("Mana - " + t2.mana);
         ataque(2);
         System.out.println("=======================================================================");
         System.out.println("***********************************************************************");
