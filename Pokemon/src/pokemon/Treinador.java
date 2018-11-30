@@ -86,7 +86,7 @@ public class Treinador {
         int choice=-1;
         Scanner reader = new Scanner(System.in);  // Reading from System.in
         int ler;
-        System.out.println("Qual ataque vc quer utilizar? \n 1- Ataque forte com custo 75mp, \n2- Ataque médio com custo 50mp \n3- Ataque fraco com custo 25mp, 4-Passar a vez");
+        System.out.println("Qual ataque vc quer utilizar? \n1- ♠ Ataque forte com custo 75mp, \n2- ♠ Ataque médio com custo 50mp \n3- ♠ Ataque fraco com custo 25mp \n4- ♣ Passar a vez");
         ler = reader.nextInt();
         choice=choice+ler;
         if(choice==0||choice==1||choice==2||choice==3){
@@ -94,7 +94,7 @@ public class Treinador {
         }
         else{
             while(choice!=1&&choice!=2&&choice!=3&&choice!=4){
-            System.out.println("Insira um ataque válido");
+            System.out.println("► Insira um ataque válido ◄");
             choice=-1;
             ler = reader.nextInt();
             choice=choice+ler;

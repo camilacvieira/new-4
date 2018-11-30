@@ -43,13 +43,15 @@ class trabalhoPokemon {
             Time t4 = new Time(p1,p4,p9);
             Time escolhido1 = new Time();
             Time escolhido2 = new Time();
-       
+            
+            System.out.println("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺\nBEM VINDOS TREINADORES,\nESTE JOGO É UM JOGO POR TURNOS\nCADA TREINADOR TERÁ UM TIME DE 3 POKEMONS,\nASSIM QUE TODOS OS POKÉMONS DE UM TREINADOR MORREREM O JOGO ACABA\n\n►►► INSTRUÇÕES ◄◄◄\n• CADA TREINADOR ESCOLHE UM TIME \n• OS TREINADORES DEVEM ESCOLHER ENTRE 3 OPÇÕES DE ATAQUE,\n• MAS FIQUEM ATENTOS, CADA TREINADOR POSSUI PONTOS DE MANA\n• PONTOS OS QUAIS SÃO CONSUMIDOS AO UTILIZAR UM ATAQUE\n• A CADA TURNO SÃO RECUPERADOS 20 PONTOS DE MANA DE CADA TREINADOR");
+            System.out.println(" ☺☺☺☺☺☺☺☺☺☺ VAMOS COMEÇAR? ☺☺☺☺☺☺☺☺☺☺ \n\n\n");
 
             System.out.println("Qual time você quer treinador 1"); 
             System.out.println("1 - Time 1 (Charmander, Vaporeon, Venossauro)");
             System.out.println("2- Time 2(Squirtle, Flareon, Gyrados)");
             System.out.println("3- Time 3(Bulbassauro,Jolteon,Blastoize)");
-            System.out.println("4 - Time 4 (Charizard, Onyx, Pikachu)");
+            System.out.println("4- Time 4 (Charizard, Onyx, Pikachu)");
             
             Scanner reader = new Scanner(System.in);  // Reading from System.in
             Time timeA=t3;
@@ -80,7 +82,7 @@ class trabalhoPokemon {
             System.out.println("1 - Time 1 (Charmander, Vaporeon, Venossauro)");
             System.out.println("2- Time 2(Squirtle, Flareon, Gyrados)");
             System.out.println("3- Time 3(Bulbassauro,Jolteon,Blastoize)");
-            System.out.println("4 - Time 4 (Charizard, Onyx, Pikachu)");
+            System.out.println("4- Time 4 (Charizard, Onyx, Pikachu)");
             Scanner readerB = new Scanner(System.in);  // Reading from System.in
             Time timeB=t2;
             int j = reader.nextInt();
