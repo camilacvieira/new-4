@@ -82,11 +82,11 @@ public class Treinador {
      *funcao que determina qual ataque é usado e seu dano
      * @return
      */
-    public int escolheAtaque(Pokemon p){      
+    public int escolheAtaque(){      
         int choice=-1;
         Scanner reader = new Scanner(System.in);  // Reading from System.in
         int ler;
-        System.out.println("Qual ataque vc quer utilizar? \n1- ♠ " + p.habilidades[0] + " - com custo 75mp, \n2- ♠ " + p.habilidades[1] + " - com custo 50mp \n3- ♠ " + p.habilidades[2] + " - com custo 25mp \n4- ♣ Passar a vez");
+        System.out.println("Qual ataque vc quer utilizar? \n1- ♠ Ataque forte com custo 75mp, \n2- ♠ Ataque médio com custo 50mp \n3- ♠ Ataque fraco com custo 25mp \n4- ♣ Passar a vez");
         ler = reader.nextInt();
         choice=choice+ler;
         if(choice==0||choice==1||choice==2||choice==3){
